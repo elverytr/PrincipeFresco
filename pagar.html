@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/css/pagar.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body class="padre">
+    <form class="formulario">
+      <div class="content-form">
+        <div class="header-form">
+          <h1 class="tit-pagar">Ingresa tus datos de pago</h1>
+        </div>
+        <div class="info-pago">
+          <p class="producto"><strong>producto:</strong> Chaqueta Roja</p>
+          <p class="total"><strong>Total:</strong> $52.500</p>
+        </div>
+
+        <!-- Tarjeta -->
+        <label for="tarjeta" class="label-input label-tarjeta">
+          <input
+            type="number"
+            id="tarjeta"
+            class="input tarjeta-input"
+            placeholder="Número de tarjeta"
+            min="1000000000000000"
+            max="9999999999999999"
+            required
+          />
+        </label>
+
+        <!-- Nombre completo -->
+        <label for="nombre" class="label-input label-nombre">
+          <input
+            type="text"
+            id="nombre"
+            class="input nombre-input"
+            placeholder="Nombre y apellido"
+            required
+        /></label>
+        <p class="text-pagar">Fecha de vencimiento</p>
+        <!-- Vencimiento mes-->
+        <div class="fecha">
+        <label for="mes" class="label-input label-mes">Mes</label>
+            <input            
+              id="mes"
+              class="input mes-input"              
+              type="number"
+              min="01"
+              max="12"
+              placeholder="MM"
+              required
+          />
+        </div>
+
+          <!-- Vencimiento año-->
+          <div class="fecha">
+        <label for="año" class="label-input label-año">Año</label>
+            <input            
+              id="año"
+              class="input año-input"              
+              type="number"
+              min="2021"
+              max="2030"
+              placeholder="AA"
+              required
+          />
+        </div>
+        
+          <!-- Clave de seguridad -->
+        <label for="cvv" class="label-input label-cvv">
+            <input
+              type="number"
+              id="cvv"
+              class="input cvv-input"
+              placeholder="CVV"
+              min="100"
+              max="999"
+              required
+          /></label>
+
+        <label for="ingresar" class="label-input label-ingresar">
+          <button type="submit" id="ingresar" class="btn btn-submit">
+            Ingresar
+          </button>
+        </label>
+      </div>
+    </form>
+  </body>
+</html>
