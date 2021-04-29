@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/min_ShoppingCart.css" />
+
+    <title>Carrito de compras</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <div class="">
+                    <a id="Home" class="nav-item nav-link" href="#">
+                        <p class="principe">Príncipe fresco</p>
+                    </a>
+                </div>
+                    <div class="col-12 text-center p-2">
+                        <a id="shop" class="nav-item nav-link" href="#">SHOP</a>
+                        <a id="collections" class="nav-item nav-link" href="#">COLLECTIONS</a>
+                    </div>
+                    <div class="col-xs-12 col-md-4 text-center">
+                        <a id="login" class="nav-item nav-link" href="#" tabindex="-1">
+                            <img href="index.html" src="img/personal.svg" alt="Inicio sesión">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container inner-card justify-content-center">
+            <div class="card-body px-sm-4 px-0">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-10 col">
+                        <h1 class="font-weight-bold ml-md-0 mx-auto text-center"> Realizar
+                            compra </h1>
+
+                    </div>
+                </div>
+                <div class="row justify-content-center round">
+                    <div class="col-lg-10 col-md-12">
+                        <div class="card card-1">
+                            <table class="table table-sm">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>Número</th>
+                                        <th>Producto</th>
+                                        <th>Cantidad</th>
+                                        <th>Precio</th>
+                                        <th>Subtotal</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="rest-body">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="font-weight-bold ml-md-0 mx-auto text-right text-sm-right"> Total
+                    compra </h3>
+                <h4 id="Total"></h4>
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 col-md-4">
+                        <button type="button" class="btn btn-primary btn-block">Seguir comprando</button>
+                    </div>
+
+                    <div class="col-md-4 mb-2">
+                        <button type="button" class="btn btn-success btn-block ">Pagar</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-12 text-center p-2">
+                Copyright © 2021 | Bogotá D.C., Colombia | <a href=""><i class="fab fa-instagram"></i></a> |
+                <a href="#"><i class="fab fa-facebook"></i></a> | <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
