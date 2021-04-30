@@ -1,0 +1,97 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.size {
+  margin-top: 40px;
+}
+
+.size .tallas {
+  margin-top: 16px;
+}
+
+.size .tallas div {
+  width: 64px;
+  height: 64px;
+  margin-right: 32px;
+}
+
+.botones_compra {
+  margin-top: 40px;
+}
+
+.botones_compra .add_cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 56px;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #1D1D1D;
+  margin-bottom: 8px;
+}
+
+.botones_compra .buy_now {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 56px;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #4276FB;
+}
+
+.size-description {
+  margin-top: 40px;
+}
+
+.size-description p {
+  color: #1D1D1D;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.size-description div {
+  margin-top: 40px;
+}
+
+.size-description div a {
+  color: #1D1D1D;
+  font-size: 18px;
+}
+
+.publicidad {
+  margin-top: 250px;
+}
+
+.publicidad .products {
+  margin-bottom: 64px;
+}
+
+@media (max-width: 991px) {
+  .nav-bar {
+    display: none;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
